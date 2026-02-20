@@ -9,5 +9,5 @@ configmap:
 
 image:
   # name: devopsjourney1/mywebapp
-  name: shumbusho43/simple-webap
+  name: shumbusho43/simple-webapp
   tag: v1
