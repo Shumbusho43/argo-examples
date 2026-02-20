@@ -8,9 +8,9 @@ spec:
     spec: # Pod spec
       containers:
       - name: mycontainer
-        image: "devopsjourney1/mywebapp:latest"
+        image: "shumbusho43/simple-webapp:v1"
         ports:
-        - containerPort: 80
+        - containerPort: 3000
         envFrom:
         - configMapRef:
             name: mykustom-map
