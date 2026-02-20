@@ -8,5 +8,6 @@ configmap:
     CUSTOM_HEADER: 'This app was deployed with helm!'
 
 image:
-  name: devopsjourney1/mywebapp
-  tag: latest
+  # name: devopsjourney1/mywebapp
+  name: shumbusho43/simple-webap
+  tag: v1
